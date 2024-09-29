@@ -1,0 +1,292 @@
+@charset "UTF-8";
+body {
+  background: url(../img/море__фон.jpg) no-repeat center center/cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.li {
+  list-style: none;
+  font-size: 18px;
+  color: aliceblue;
+}
+.li:hover {
+  color: #D7630F;
+}
+
+.log__name {
+  color: #D7630F;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.log__name:hover {
+  color: aliceblue;
+}
+
+.log {
+  border-radius: 30px;
+  width: 55px;
+  height: 55px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+@media (max-width: 1025px) {
+  .container {
+    min-width: unset;
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 0 14px;
+    width: 520px;
+  }
+}
+
+h1, h2 {
+  color: #421900;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #421900;
+}
+@media (max-width: 510px) {
+  .header {
+    width: 520px;
+  }
+}
+.header__had {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+@media (max-width: 900px) {
+  .header__had {
+    gap: 200px;
+  }
+}
+@media (max-width: 720px) {
+  .header__had {
+    gap: 150px;
+  }
+}
+@media (max-width: 660px) {
+  .header__had {
+    gap: 250px;
+  }
+}
+@media (max-width: 510px) {
+  .header__had {
+    gap: 150px;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+  }
+}
+@media (max-width: 445px) {
+  .header__had {
+    gap: 120px;
+  }
+}
+.header__burger {
+  display: none;
+  align-items: center;
+}
+@media (max-width: 660px) {
+  .header__burger {
+    display: block;
+  }
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+@media (max-width: 660px) {
+  .header__buttons {
+    display: none;
+  }
+}
+
+.main__block {
+  color: #421900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+@media (max-width: 500px) {
+  .main__block {
+    width: 500px;
+  }
+}
+.main__subtitle {
+  font-size: 40px;
+}
+@media (max-width: 770px) {
+  .main__subtitle {
+    font-size: 30px;
+  }
+}
+.main__title {
+  font-size: 48px;
+  color: #532102;
+}
+@media (max-width: 770px) {
+  .main__title {
+    font-size: 38px;
+  }
+}
+
+.fr {
+  width: 304px;
+  height: 198px;
+  border-radius: 30px;
+  position: relative;
+}
+@media (max-width: 780px) {
+  .fr {
+    width: 212px;
+    height: 138px;
+  }
+}
+@media (max-width: 510px) {
+  .fr {
+    width: 304px;
+    height: 198px;
+  }
+}
+
+.Pages {
+  margin-top: 100px;
+}
+.Pages__frame {
+  width: 800px;
+  margin: 0 auto;
+}
+@media (max-width: 870px) {
+  .Pages__frame {
+    width: 700px;
+  }
+}
+@media (max-width: 780px) {
+  .Pages__frame {
+    width: 500px;
+  }
+}
+.Pages__frame__fr-min {
+  display: flex;
+  justify-content: space-between;
+  height: 256px;
+  padding: 29px;
+}
+@media (max-width: 780px) {
+  .Pages__frame__fr-min {
+    height: 170px;
+  }
+}
+@media (max-width: 510px) {
+  .Pages__frame__fr-min {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    height: 500px;
+  }
+}
+.Pages__frame__fr-min__text {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+.Pages__frame__fr-min__fr1 {
+  background: url(../img/whale-кит.jpg) no-repeat center center/cover;
+}
+.Pages__frame__fr-min__fr2 {
+  background: url(../img/vu.jpg) no-repeat center center/cover;
+}
+.Pages__frame__fr-min__fr3 {
+  background: url(../img/выр.webp) no-repeat center center/cover;
+}
+.Pages__frame__fr-min__fr4 {
+  background: url(../img/Аквариум.jpg) no-repeat center center/cover;
+}
+.Pages__frame__fr-min__fr5 {
+  background: url(../img/stove.jpg) no-repeat center center/cover;
+}
+.Pages__frame__fr-min__fr6 {
+  background: url(../img//worm.jpg) no-repeat center center/cover;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #421900;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 510px) {
+  .footer {
+    width: 520px;
+  }
+}
+.footer__had {
+  padding: 10px;
+  display: flex;
+  gap: 350px;
+}
+@media (max-width: 880px) {
+  .footer__had {
+    gap: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .footer__had {
+    gap: 150px;
+  }
+}
+@media (max-width: 640px) {
+  .footer__had {
+    gap: 100px;
+  }
+}
+@media (max-width: 580px) {
+  .footer__had {
+    gap: 50px;
+  }
+}
+@media (max-width: 530px) {
+  .footer__had {
+    gap: 20px;
+  }
+}
+@media (max-width: 510px) {
+  .footer__had {
+    gap: 0px;
+    position: absolute;
+    bottom: -1350px;
+  }
+}
+.footer__buttons {
+  width: 290px;
+}/*# sourceMappingURL=kr_1.css.map */

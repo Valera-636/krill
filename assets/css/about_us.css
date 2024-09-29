@@ -1,0 +1,140 @@
+body {
+  background: url(../img/jump__2.jpg) no-repeat top center/cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.li {
+  list-style: none;
+  font-size: 18px;
+  color: aliceblue;
+}
+.li:hover {
+  color: #D7630F;
+}
+
+.log__name {
+  color: #D7630F;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.log__name:hover {
+  color: aliceblue;
+}
+
+.log {
+  border-radius: 30px;
+  width: 55px;
+  height: 55px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+@media (max-width: 1025px) {
+  .container {
+    min-width: unset;
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 0 14px;
+  }
+}
+
+h1, h2 {
+  color: #D7630F;
+  font-size: 36px;
+  text-align: center;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #421900;
+}
+.header__had {
+  display: flex;
+  align-items: center;
+  gap: 350px;
+}
+@media (max-width: 900px) {
+  .header__had {
+    gap: 200px;
+  }
+}
+@media (max-width: 720px) {
+  .header__had {
+    gap: 150px;
+  }
+}
+@media (max-width: 660px) {
+  .header__had {
+    gap: 250px;
+  }
+}
+@media (max-width: 510px) {
+  .header__had {
+    gap: 150px;
+  }
+}
+@media (max-width: 445px) {
+  .header__had {
+    gap: 120px;
+  }
+}
+.header__burger {
+  display: none;
+  align-items: center;
+}
+@media (max-width: 660px) {
+  .header__burger {
+    display: block;
+  }
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+@media (max-width: 660px) {
+  .header__buttons {
+    display: none;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+.main__frame {
+  padding: 50px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.main__frame__text {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  max-width: 251px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=about_us.css.map */

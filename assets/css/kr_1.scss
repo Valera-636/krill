@@ -1,0 +1,244 @@
+
+body{
+    background: url(../img/море__фон.jpg) no-repeat center center / cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+.li{
+    list-style: none;
+    font-size: 18px;
+    color: aliceblue;
+    &:hover{
+        color: #D7630F;
+    }
+}
+.log__name{
+    color: #D7630F;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    &:hover{
+        color: aliceblue;
+    } 
+}
+.log{
+    border-radius: 30px;
+    width: 55px;
+    height: 55px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    @media (max-width: 1025px ) {
+        min-width: unset;
+        padding: 0px 10px;
+    }
+    @media (max-width: 500px ) {
+        padding: 0 14px;
+        width: 520px;  
+    }
+
+}
+
+h1, h2{
+    color: #421900;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #421900;
+    @media (max-width: 510px) {
+        width: 520px;
+    }
+    
+    &__had{
+        display: flex;
+        align-items: center;
+        gap: 350px;
+        @media (max-width: 900px) {
+            gap: 200px;
+        }
+        @media (max-width: 720px) {
+            gap: 150px;
+        }
+        @media (max-width: 660px) {
+            gap: 250px;
+        }
+        @media (max-width: 510px) {
+            gap: 150px;
+            position: absolute;
+            left: 120px;
+            top: 10px;
+        }
+        @media (max-width: 445px) {
+            gap: 120px;
+        }
+    }
+    &__burger{
+        display: none;
+        align-items: center;
+        @media (max-width: 660px) {
+            display: block;     
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        @media (max-width: 660px) {
+            display: none;           
+        }
+
+    }
+}
+
+// main
+.main{
+    &__block{
+        color: #421900;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        @media (max-width: 500px ) {
+            width: 500px;  
+        }
+    }
+    &__subtitle{
+        font-size: 40px;
+        @media (max-width: 770px) {
+            font-size: 30px;
+        }
+    }
+    &__title{
+        font-size: 48px;
+        color: #532102;
+        @media (max-width: 770px) {
+            font-size: 38px;
+        }
+    }
+}
+
+.fr{
+    width: 304px;
+    height: 198px;
+    border-radius: 30px;
+    position:relative;
+    @media (max-width: 780px) {
+        width: 212px;
+        height: 138px;
+    }
+    @media (max-width: 510px) {
+        width: 304px;
+        height: 198px;
+    }
+}
+.Pages{
+    margin-top: 100px;
+    &__frame{
+        width: 800px;
+        margin: 0 auto;
+        @media (max-width: 870px) {
+            width: 700px
+        }
+        @media (max-width: 780px) {
+            width: 500px;            
+        }
+
+        &__fr-min{
+            display: flex;
+            justify-content: space-between;
+            height: 256px;
+            padding: 29px;
+            @media (max-width: 780px) {
+                height: 170px;              
+            }
+            @media (max-width: 510px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 0px;
+                height: 500px;
+            }
+            &__text{
+                color: #fff;
+                font-size: 18px;
+                position: absolute;
+                bottom:0;
+                right:0;
+                padding: 15px;
+            }
+            &__fr1{
+                background: url(../img/whale-кит.jpg) no-repeat center center / cover;
+            }
+            &__fr2{
+                background: url(../img/vu.jpg) no-repeat center center / cover;
+            }
+            &__fr3{
+                background: url(../img/выр.webp) no-repeat center center / cover;
+            }
+            &__fr4{
+                background: url(../img/Аквариум.jpg) no-repeat center center / cover;
+            }
+            &__fr5{
+                background: url(../img/stove.jpg) no-repeat center center / cover;
+            }
+            &__fr6{
+                background: url(../img//worm.jpg) no-repeat center center / cover;
+            }
+        }
+    }
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #421900;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    @media (max-width: 510px) {
+        width: 520px;
+    }
+
+    &__had{
+        padding: 10px;
+        display: flex;
+        gap: 350px;
+        @media (max-width: 880px) {
+            gap: 200px;
+        }
+        @media (max-width: 700px) {
+            gap: 150px;
+        }
+        @media (max-width: 640px) {
+            gap: 100px;
+        }
+        @media (max-width: 580px) {
+            gap: 50px;
+        }
+        @media (max-width: 530px) {
+            gap: 20px;
+        }
+        @media (max-width: 510px) {
+            gap: 0px;
+            position: absolute;
+            bottom: -1350px;
+        }
+    }
+    &__buttons{
+        width: 290px;
+    }
+}
